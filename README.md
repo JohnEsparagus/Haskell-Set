@@ -6,7 +6,7 @@ This project involves designing a datatype that represents a finite set of eleme
 data Set a = 
   Empty | Node (Set a) a (Set a) 
   deriving (Show)
-
+```
 In this project, I used a BST approach ensuring elements are sorted to maintain set properties.
 Quickcheck functions were used to check my implementations.
 
